@@ -1,0 +1,32 @@
+2020-04-21 15:32:45,560: main.py[第65行]: INFO:wazuh-alerts-3.x-* result is: 1520
+2020-04-21 15:32:45,868: main.py[第65行]: INFO:filebeat_suricata-* result is: 3838
+2020-04-21 15:33:05,948: data_process.py[第69行]: INFO:The nhids num is: 51
+
+2020-04-21 15:37:35,383: main.py[第65行]: INFO:wazuh-alerts-3.x-* result is: 1620
+2020-04-21 15:37:35,940: main.py[第65行]: INFO:filebeat_suricata-* result is: 8210
+2020-04-21 15:38:02,948: data_process.py[第69行]: INFO:The nhids num is: 104
+
+2020-04-21 15:40:05,609: main.py[第65行]: INFO:wazuh-alerts-3.x-* result is: 1621
+2020-04-21 15:40:06,390: main.py[第65行]: INFO:filebeat_suricata-* result is: 12044
+2020-04-21 15:40:40,398: data_process.py[第69行]: INFO:The nhids num is: 144
+
+2020-04-21 16:05:07,602: main.py[第61行]: INFO:wazuh-alerts-3.x-* result is: 1759
+2020-04-21 16:05:07,997: main.py[第61行]: INFO:filebeat_suricata-* result is: 4770
+2020-04-21 16:05:14,745: data_process.py[第69行]: INFO:The nhids num is: 23
+
+2020-04-21 16:05:28,296: main.py[第61行]: INFO:wazuh-alerts-3.x-* result is: 1767
+2020-04-21 16:05:28,645: main.py[第61行]: INFO:filebeat_suricata-* result is: 4775
+2020-04-21 16:05:35,394: data_process.py[第69行]: INFO:The nhids num is: 23
+
+2020-04-21 16:36:45,626: main.py[第61行]: INFO:wazuh-alerts-3.x-* result is: 1800
+2020-04-21 16:36:45,970: main.py[第61行]: INFO:filebeat_suricata-* result is: 4950
+2020-04-21 16:36:53,202: data_process.py[第69行]: INFO:The nhids num is: 70
+
+2020-04-21 17:10:39,210: main.py[第61行]: INFO:wazuh-alerts-3.x-* result is: 1912
+2020-04-21 17:10:39,539: main.py[第61行]: INFO:filebeat_suricata-* result is: 4356
+2020-04-21 17:10:46,270: data_process.py[第69行]: INFO:The nhids num is: 16
+
+2020-04-21 17:21:45,632: main.py[第61行]: INFO:wazuh-alerts-3.x-* result is: 3948
+2020-04-21 17:21:46,007: main.py[第61行]: INFO:filebeat_suricata-* result is: 5032
+2020-04-21 17:22:00,629: data_process.py[第74行]: INFO:The nhids num is: 24
+
