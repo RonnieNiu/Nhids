@@ -6,7 +6,7 @@ import time
 
 #self own libraries
 from redis_queue import *
-from log import log
+from log import log_decorator
 
 def _utc2local(utc):
     UTC_FORMAT = "%Y-%m-%dT%H:%M:%S.%fZ"
@@ -50,9 +50,11 @@ def _process_each_data(hids,nids_result):
     return each_hids_result
 
 def _pp(result_list):
-    for each in result_list:
-        print(each)
+    #for each in result_list:
+    #    print(each)
+    return len(result_list)
 
+@log_decorator
 def DataProcess(hids_result,nids_result):
     nhids_result = []
     hids_count = 0
@@ -65,10 +67,10 @@ def DataProcess(hids_result,nids_result):
         #if hids_count % 100 == 0:
         #    time.sleep(1)
 
-        if each_data != None:
+        if each_data != None and isinstance(each_data,Exception) != True:
             each_hids_result = _process_each_data(each_data,nids_result)
-            _pp(each_hids_result)
+            print(_pp(each_hids_result))
             nhids_result += each_hids_result
         else:
             break
-    log.info("The nhids num is: %s\n"%len(nhids_result))
+    return nhids_result
