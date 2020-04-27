@@ -1,32 +1,76 @@
-2020-04-21 15:32:45,560: main.py[第65行]: INFO:wazuh-alerts-3.x-* result is: 1520
-2020-04-21 15:32:45,868: main.py[第65行]: INFO:filebeat_suricata-* result is: 3838
-2020-04-21 15:33:05,948: data_process.py[第69行]: INFO:The nhids num is: 51
+2020-04-27 10:59:24,998: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5057
+2020-04-27 10:59:25,248: INFO:ScrollSearch: filebeat_suricata-* result is: 2948
+2020-04-27 10:59:37,127: INFO:DataProcess: the nhids num is: 24
 
-2020-04-21 15:37:35,383: main.py[第65行]: INFO:wazuh-alerts-3.x-* result is: 1620
-2020-04-21 15:37:35,940: main.py[第65行]: INFO:filebeat_suricata-* result is: 8210
-2020-04-21 15:38:02,948: data_process.py[第69行]: INFO:The nhids num is: 104
+2020-04-27 11:06:57,010: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5173
+2020-04-27 11:06:57,247: INFO:ScrollSearch: filebeat_suricata-* result is: 3219
+2020-04-27 11:07:09,876: INFO:DataProcess: the nhids num is: 40
 
-2020-04-21 15:40:05,609: main.py[第65行]: INFO:wazuh-alerts-3.x-* result is: 1621
-2020-04-21 15:40:06,390: main.py[第65行]: INFO:filebeat_suricata-* result is: 12044
-2020-04-21 15:40:40,398: data_process.py[第69行]: INFO:The nhids num is: 144
+2020-04-27 11:09:50,905: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5246
+2020-04-27 11:09:51,217: INFO:ScrollSearch: filebeat_suricata-* result is: 3268
+2020-04-27 11:10:04,281: INFO:DataProcess: the nhids num is: 38
 
-2020-04-21 16:05:07,602: main.py[第61行]: INFO:wazuh-alerts-3.x-* result is: 1759
-2020-04-21 16:05:07,997: main.py[第61行]: INFO:filebeat_suricata-* result is: 4770
-2020-04-21 16:05:14,745: data_process.py[第69行]: INFO:The nhids num is: 23
+2020-04-27 11:10:59,001: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5140
+2020-04-27 11:10:59,291: INFO:ScrollSearch: filebeat_suricata-* result is: 3240
+2020-04-27 11:11:10,852: INFO:DataProcess: the nhids num is: 33
 
-2020-04-21 16:05:28,296: main.py[第61行]: INFO:wazuh-alerts-3.x-* result is: 1767
-2020-04-21 16:05:28,645: main.py[第61行]: INFO:filebeat_suricata-* result is: 4775
-2020-04-21 16:05:35,394: data_process.py[第69行]: INFO:The nhids num is: 23
+2020-04-27 14:32:33,808: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5165
+2020-04-27 14:32:34,151: INFO:ScrollSearch: filebeat_suricata-* result is: 3430
+2020-04-27 14:32:47,539: INFO:DataProcess: the nhids num is: 725
 
-2020-04-21 16:36:45,626: main.py[第61行]: INFO:wazuh-alerts-3.x-* result is: 1800
-2020-04-21 16:36:45,970: main.py[第61行]: INFO:filebeat_suricata-* result is: 4950
-2020-04-21 16:36:53,202: data_process.py[第69行]: INFO:The nhids num is: 70
+2020-04-27 14:46:47,302: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5093
+2020-04-27 14:46:47,514: INFO:ScrollSearch: filebeat_suricata-* result is: 3103
+2020-04-27 14:46:59,465: INFO:DataProcess: the nhids num is: 97
 
-2020-04-21 17:10:39,210: main.py[第61行]: INFO:wazuh-alerts-3.x-* result is: 1912
-2020-04-21 17:10:39,539: main.py[第61行]: INFO:filebeat_suricata-* result is: 4356
-2020-04-21 17:10:46,270: data_process.py[第69行]: INFO:The nhids num is: 16
+2020-04-27 14:48:14,512: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5164
+2020-04-27 14:48:14,773: INFO:ScrollSearch: filebeat_suricata-* result is: 3118
+2020-04-27 14:48:25,896: INFO:DataProcess: the nhids num is: 66
 
-2020-04-21 17:21:45,632: main.py[第61行]: INFO:wazuh-alerts-3.x-* result is: 3948
-2020-04-21 17:21:46,007: main.py[第61行]: INFO:filebeat_suricata-* result is: 5032
-2020-04-21 17:22:00,629: data_process.py[第74行]: INFO:The nhids num is: 24
+2020-04-27 14:49:05,731: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5158
+2020-04-27 14:49:05,979: INFO:ScrollSearch: filebeat_suricata-* result is: 2941
+2020-04-27 14:49:17,527: INFO:DataProcess: the nhids num is: 38
+
+2020-04-27 14:53:18,459: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 341
+2020-04-27 14:53:18,498: INFO:ScrollSearch: filebeat_suricata-* result is: 299
+2020-04-27 14:53:19,636: INFO:DataProcess: the nhids num is: 0
+
+2020-04-27 14:53:35,581: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1426
+2020-04-27 14:53:35,656: INFO:ScrollSearch: filebeat_suricata-* result is: 882
+2020-04-27 14:53:37,785: INFO:DataProcess: the nhids num is: 4
+
+2020-04-27 15:47:59,699: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1228
+2020-04-27 15:47:59,797: INFO:ScrollSearch: filebeat_suricata-* result is: 1093
+2020-04-27 15:48:01,821: INFO:DataProcess: the nhids num is: 4
+
+2020-04-27 15:50:21,554: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1279
+2020-04-27 15:50:21,699: INFO:ScrollSearch: filebeat_suricata-* result is: 1256
+2020-04-27 15:50:24,032: INFO:DataProcess: the nhids num is: 3
+
+2020-04-27 15:50:45,636: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1419
+2020-04-27 15:50:45,768: INFO:ScrollSearch: filebeat_suricata-* result is: 1103
+2020-04-27 15:50:48,001: INFO:DataProcess: the nhids num is: 3
+
+2020-04-27 15:53:22,051: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1305
+2020-04-27 15:53:22,145: INFO:ScrollSearch: filebeat_suricata-* result is: 998
+2020-04-27 15:53:24,253: INFO:DataProcess: the nhids num is: 4
+
+2020-04-27 15:54:08,240: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1321
+2020-04-27 15:54:08,358: INFO:ScrollSearch: filebeat_suricata-* result is: 864
+2020-04-27 15:54:10,385: INFO:DataProcess: the nhids num is: 43
+
+2020-04-27 18:32:04,808: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1206
+2020-04-27 18:32:04,861: INFO:ScrollSearch: filebeat_suricata-* result is: 573
+2020-04-27 18:32:06,604: INFO:DataProcess: the nhids num is: 0
+
+2020-04-27 18:32:20,014: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1054
+2020-04-27 18:32:20,087: INFO:ScrollSearch: filebeat_suricata-* result is: 544
+2020-04-27 18:32:21,661: INFO:DataProcess: the nhids num is: 0
+
+2020-04-27 18:32:41,159: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3793
+2020-04-27 18:32:41,354: INFO:ScrollSearch: filebeat_suricata-* result is: 2219
+2020-04-27 18:32:48,442: INFO:DataProcess: the nhids num is: 2
+
+2020-04-27 18:35:22,569: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3875
+2020-04-27 18:35:22,747: INFO:ScrollSearch: filebeat_suricata-* result is: 2063
+2020-04-27 18:35:29,598: INFO:DataProcess: the nhids num is: 35
 
