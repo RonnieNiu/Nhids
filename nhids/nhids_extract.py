@@ -44,6 +44,7 @@ def _hids_extract(hids):
     else:
         hids_timestamp = "null"
     ##############################################################################
+    '''
     print("hids_agent_ip: %s"%hids_agent_ip)
     print("hids_srcip: %s"%hids_srcip)
     print("hids_srcport: %s"%hids_srcport)
@@ -51,8 +52,14 @@ def _hids_extract(hids):
     print("hids_rule_description: %s"%hids_rule_description)
     print("hids_rule_level: %s"%hids_rule_level)
     print("hids_full_log: %s"%hids_full_log)
-    print("hids_full_log: %s"%hids_timestamp)
+    print("hids_timestamp: %s"%hids_timestamp)
     print("##########################################################")
+    '''
+    return [("hids_agent_ip",hids_agent_ip),("hids_srcip",hids_srcip),\
+            ("hids_srcport",hids_srcport),("hids_node",hids_node),\
+            ("hids_rule_description",hids_rule_description),("hids_rule_level",hids_rule_level),\
+            ("hids_full_log",hids_full_log),("hids_timestamp",hids_timestamp)]
+
 def _nids_extract(nids):
     #######################################################################
     if nids.get("alert") != None and nids["alert"].get("action") != None:
@@ -150,7 +157,7 @@ def _nids_extract(nids):
         nids_timestamp = nids["@timestamp"]
     else:
         nids_timestamp = "null"
-
+    '''
     print(nids_action)
     print(nids_category)
     print(nids_signature)
@@ -170,11 +177,21 @@ def _nids_extract(nids):
     print(nids_payload_printable)
     print(nids_log_file_path)
     print(nids_timestamp)
+    '''
+    return [("nids_action",nids_action),("nids_category",nids_category),\
+           ("nids_signature",nids_signature),("nids_dest_host",nids_dest_host),\
+           ("nids_dest_ip",nids_dest_ip),("nids_dest_port",nids_dest_port),\
+           ("nids_dest_project",nids_dest_project),("nids_dest_service",nids_dest_service),\
+           ("nids_dest_user",nids_dest_user),("nids_src_host",nids_src_host),\
+           ("nids_src_ip",nids_src_ip),("nids_src_port",nids_src_port),\
+           ("nids_src_project",nids_src_project),("nids_src_service",nids_src_service),\
+           ("nids_src_user",nids_src_user),("nids_payload",nids_payload),\
+           ("nids_payload_printable",nids_payload_printable),("nids_log_file_path",nids_log_file_path),\
+           ("nids_timestamp",nids_timestamp)]
 
 def extract(nhids_result):
     for each_tuple in nhids_result:
         hids = each_tuple[0]
-        _hids_extract(hids)
         nids = each_tuple[1]
-        _nids_extract(nids)
-
+        each_result = dict(_hids_extract(hids) + _nids_extract(nids))
+        print(each_result,type(each_result))
