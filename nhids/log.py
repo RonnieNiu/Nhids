@@ -36,7 +36,9 @@ def log_decorator(func):
         elif func.__name__ == "ScrollSearch":
             if kv.get("index") != None:
                 log.info("%s: %s result is: %s"%(func.__name__,kv["index"],len(result)))
-        elif func.__name__ == "DataProcess":
+        elif func.__name__ == "HidsRelateNids":
             log.info("%s: the nhids num is: %d\n"%(func.__name__,len(result)))
+        elif func.__name__ == "WriteInputElastic":
+            log.info("%s: sucess write input elastic: %d"%(func.__name__,len(result)))
         return result
     return wrapper

@@ -51,7 +51,7 @@ def _process_each_data(hids,nids_result):
 
 
 @log_decorator
-def DataProcess(hids_result,nids_result):
+def HidsRelateNids(hids_result,nids_result):
     nhids_result = []
     hids_count = 0
     DataInputRedis(hids_result,"hids_result")

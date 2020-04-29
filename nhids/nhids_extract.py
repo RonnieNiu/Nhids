@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import json
 
 def _hids_extract(hids):
     ##############################################################################
@@ -190,8 +191,11 @@ def _nids_extract(nids):
            ("nids_timestamp",nids_timestamp)]
 
 def extract(nhids_result):
+    final_events = []
     for each_tuple in nhids_result:
         hids = each_tuple[0]
         nids = each_tuple[1]
         each_result = dict(_hids_extract(hids) + _nids_extract(nids))
-        print(each_result,type(each_result))
+        #print(each_result,type(each_result))
+        final_events.append(json.dumps(each_result))
+    return final_events
