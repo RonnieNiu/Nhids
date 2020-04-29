@@ -3,14 +3,11 @@
 
 from datetime import datetime
 
-#Third-party libraries
-from elasticsearch import Elasticsearch,helpers
+from elasticsearch import helpers
 
 from log import log_decorator
 from conf import setting
-
-es = Elasticsearch(setting.ES_HOST,http_auth=setting.ES_AUTH,
-                   sniff_on_start=True,sniff_on_connection_fail=True,sniff_timeout=5)
+from elastic_conn import es
 
 def query_data(date):
     gte = "now-"+str(date)+"m"

@@ -13,3 +13,6 @@ REDIS_HOST = "10.212.18.29"
 REDIS_PORT = 6390
 REDIS_AUTH = "abc123!@#"
 REDIS_DB = 0
+
+#set final_events index in elastic
+NHIDS_INDEX = "nhids_event"
