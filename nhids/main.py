@@ -9,8 +9,9 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 
 #self own libraries
 NIDS_BASE_DIR = \
-os.path.dirname(os.path.dirname(os.path.abspath("__file__")))
+os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(NIDS_BASE_DIR)
+
 from nids_relate_hids import HidsRelateNids
 from nhids_extract import extract
 from conf import setting
@@ -32,9 +33,8 @@ def process():
     WriteInputElastic(final_events)
 
 if __name__ == "__main__":
-
-    #BlockingScheduler
-    #sched = BlockingScheduler()
-    #sched.add_job(process, 'interval', minutes=int(setting.INTERVAL))  # 每隔15分钟秒执行一次
-    #sched.start()
-    process()
+    BlockingScheduler
+    sched = BlockingScheduler()
+    sched.add_job(process, 'interval', minutes=int(setting.INTERVAL))  # 每隔15分钟秒执行一次
+    sched.start()
+    #process()

@@ -1,76 +1,178 @@
-2020-04-27 10:59:24,998: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5057
-2020-04-27 10:59:25,248: INFO:ScrollSearch: filebeat_suricata-* result is: 2948
-2020-04-27 10:59:37,127: INFO:DataProcess: the nhids num is: 24
+2020-04-30 10:52:05,183: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 4247
+2020-04-30 10:52:05,372: INFO:ScrollSearch: filebeat_suricata-* result is: 2410
+2020-04-30 10:52:12,999: INFO:HidsRelateNids: the nhids num is: 43
 
-2020-04-27 11:06:57,010: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5173
-2020-04-27 11:06:57,247: INFO:ScrollSearch: filebeat_suricata-* result is: 3219
-2020-04-27 11:07:09,876: INFO:DataProcess: the nhids num is: 40
+2020-04-30 10:53:34,723: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 4232
+2020-04-30 10:53:34,932: INFO:ScrollSearch: filebeat_suricata-* result is: 2338
+2020-04-30 10:53:42,942: INFO:HidsRelateNids: the nhids num is: 55
 
-2020-04-27 11:09:50,905: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5246
-2020-04-27 11:09:51,217: INFO:ScrollSearch: filebeat_suricata-* result is: 3268
-2020-04-27 11:10:04,281: INFO:DataProcess: the nhids num is: 38
+2020-04-30 10:54:39,499: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 4189
+2020-04-30 10:54:39,706: INFO:ScrollSearch: filebeat_suricata-* result is: 2408
+2020-04-30 10:54:47,916: INFO:HidsRelateNids: the nhids num is: 40
 
-2020-04-27 11:10:59,001: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5140
-2020-04-27 11:10:59,291: INFO:ScrollSearch: filebeat_suricata-* result is: 3240
-2020-04-27 11:11:10,852: INFO:DataProcess: the nhids num is: 33
+2020-04-30 11:13:32,812: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 50803
+2020-04-30 11:13:33,022: INFO:ScrollSearch: filebeat_suricata-* result is: 2379
+2020-04-30 11:14:59,242: INFO:HidsRelateNids: the nhids num is: 179
 
-2020-04-27 14:32:33,808: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5165
-2020-04-27 14:32:34,151: INFO:ScrollSearch: filebeat_suricata-* result is: 3430
-2020-04-27 14:32:47,539: INFO:DataProcess: the nhids num is: 725
+2020-04-30 11:30:58,537: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 4953
+2020-04-30 11:30:58,718: INFO:ScrollSearch: filebeat_suricata-* result is: 2164
+2020-04-30 11:31:07,401: INFO:HidsRelateNids: the nhids num is: 24
 
-2020-04-27 14:46:47,302: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5093
-2020-04-27 14:46:47,514: INFO:ScrollSearch: filebeat_suricata-* result is: 3103
-2020-04-27 14:46:59,465: INFO:DataProcess: the nhids num is: 97
+2020-04-30 11:39:24,690: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5511
+2020-04-30 11:39:24,924: INFO:ScrollSearch: filebeat_suricata-* result is: 2437
+2020-04-30 11:39:35,407: INFO:HidsRelateNids: the nhids num is: 49
 
-2020-04-27 14:48:14,512: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5164
-2020-04-27 14:48:14,773: INFO:ScrollSearch: filebeat_suricata-* result is: 3118
-2020-04-27 14:48:25,896: INFO:DataProcess: the nhids num is: 66
+2020-04-30 11:40:22,638: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 4976
+2020-04-30 11:40:22,866: INFO:ScrollSearch: filebeat_suricata-* result is: 2405
+2020-04-30 11:40:32,142: INFO:HidsRelateNids: the nhids num is: 49
 
-2020-04-27 14:49:05,731: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5158
-2020-04-27 14:49:05,979: INFO:ScrollSearch: filebeat_suricata-* result is: 2941
-2020-04-27 14:49:17,527: INFO:DataProcess: the nhids num is: 38
+2020-04-30 11:46:24,955: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 4854
+2020-04-30 11:46:25,188: INFO:ScrollSearch: filebeat_suricata-* result is: 2484
+2020-04-30 11:46:34,048: INFO:HidsRelateNids: the nhids num is: 55
 
-2020-04-27 14:53:18,459: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 341
-2020-04-27 14:53:18,498: INFO:ScrollSearch: filebeat_suricata-* result is: 299
-2020-04-27 14:53:19,636: INFO:DataProcess: the nhids num is: 0
+2020-04-30 11:48:49,995: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 4260
+2020-04-30 11:48:50,207: INFO:ScrollSearch: filebeat_suricata-* result is: 2424
+2020-04-30 11:48:58,823: INFO:HidsRelateNids: the nhids num is: 24
 
-2020-04-27 14:53:35,581: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1426
-2020-04-27 14:53:35,656: INFO:ScrollSearch: filebeat_suricata-* result is: 882
-2020-04-27 14:53:37,785: INFO:DataProcess: the nhids num is: 4
+2020-04-30 11:54:26,434: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 4128
+2020-04-30 11:54:26,622: INFO:ScrollSearch: filebeat_suricata-* result is: 2224
+2020-04-30 11:54:34,183: INFO:HidsRelateNids: the nhids num is: 36
 
-2020-04-27 15:47:59,699: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1228
-2020-04-27 15:47:59,797: INFO:ScrollSearch: filebeat_suricata-* result is: 1093
-2020-04-27 15:48:01,821: INFO:DataProcess: the nhids num is: 4
+2020-04-30 11:57:57,373: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3884
+2020-04-30 11:57:57,572: INFO:ScrollSearch: filebeat_suricata-* result is: 2264
+2020-04-30 11:58:04,995: INFO:HidsRelateNids: the nhids num is: 28
 
-2020-04-27 15:50:21,554: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1279
-2020-04-27 15:50:21,699: INFO:ScrollSearch: filebeat_suricata-* result is: 1256
-2020-04-27 15:50:24,032: INFO:DataProcess: the nhids num is: 3
+2020-04-30 12:08:37,865: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3827
+2020-04-30 12:08:38,055: INFO:ScrollSearch: filebeat_suricata-* result is: 2285
+2020-04-30 12:08:45,172: INFO:HidsRelateNids: the nhids num is: 16
 
-2020-04-27 15:50:45,636: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1419
-2020-04-27 15:50:45,768: INFO:ScrollSearch: filebeat_suricata-* result is: 1103
-2020-04-27 15:50:48,001: INFO:DataProcess: the nhids num is: 3
+2020-04-30 12:12:40,146: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3715
+2020-04-30 12:12:40,342: INFO:ScrollSearch: filebeat_suricata-* result is: 2234
+2020-04-30 12:12:46,711: INFO:HidsRelateNids: the nhids num is: 20
 
-2020-04-27 15:53:22,051: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1305
-2020-04-27 15:53:22,145: INFO:ScrollSearch: filebeat_suricata-* result is: 998
-2020-04-27 15:53:24,253: INFO:DataProcess: the nhids num is: 4
+2020-04-30 12:22:14,715: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3428
+2020-04-30 12:22:14,923: INFO:ScrollSearch: filebeat_suricata-* result is: 2302
+2020-04-30 12:22:21,636: INFO:HidsRelateNids: the nhids num is: 18
 
-2020-04-27 15:54:08,240: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1321
-2020-04-27 15:54:08,358: INFO:ScrollSearch: filebeat_suricata-* result is: 864
-2020-04-27 15:54:10,385: INFO:DataProcess: the nhids num is: 43
+2020-04-30 12:23:04,062: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3517
+2020-04-30 12:23:04,247: INFO:ScrollSearch: filebeat_suricata-* result is: 2259
+2020-04-30 12:23:10,893: INFO:HidsRelateNids: the nhids num is: 30
 
-2020-04-27 18:32:04,808: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1206
-2020-04-27 18:32:04,861: INFO:ScrollSearch: filebeat_suricata-* result is: 573
-2020-04-27 18:32:06,604: INFO:DataProcess: the nhids num is: 0
+2020-04-30 12:25:38,028: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3524
+2020-04-30 12:25:38,236: INFO:ScrollSearch: filebeat_suricata-* result is: 2276
+2020-04-30 12:25:45,009: INFO:HidsRelateNids: the nhids num is: 30
 
-2020-04-27 18:32:20,014: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 1054
-2020-04-27 18:32:20,087: INFO:ScrollSearch: filebeat_suricata-* result is: 544
-2020-04-27 18:32:21,661: INFO:DataProcess: the nhids num is: 0
+2020-04-30 12:26:25,280: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3568
+2020-04-30 12:26:25,462: INFO:ScrollSearch: filebeat_suricata-* result is: 2251
+2020-04-30 12:26:31,633: INFO:HidsRelateNids: the nhids num is: 30
 
-2020-04-27 18:32:41,159: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3793
-2020-04-27 18:32:41,354: INFO:ScrollSearch: filebeat_suricata-* result is: 2219
-2020-04-27 18:32:48,442: INFO:DataProcess: the nhids num is: 2
+2020-04-30 12:30:13,603: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3479
+2020-04-30 12:30:13,792: INFO:ScrollSearch: filebeat_suricata-* result is: 2201
+2020-04-30 12:30:20,895: INFO:HidsRelateNids: the nhids num is: 24
 
-2020-04-27 18:35:22,569: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3875
-2020-04-27 18:35:22,747: INFO:ScrollSearch: filebeat_suricata-* result is: 2063
-2020-04-27 18:35:29,598: INFO:DataProcess: the nhids num is: 35
+2020-04-30 12:34:10,106: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3516
+2020-04-30 12:34:10,294: INFO:ScrollSearch: filebeat_suricata-* result is: 2101
+2020-04-30 12:34:16,778: INFO:HidsRelateNids: the nhids num is: 29
+
+2020-04-30 12:39:19,140: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3478
+2020-04-30 12:39:19,325: INFO:ScrollSearch: filebeat_suricata-* result is: 2298
+2020-04-30 12:39:25,542: INFO:HidsRelateNids: the nhids num is: 40
+
+2020-04-30 12:41:42,237: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3426
+2020-04-30 12:41:42,432: INFO:ScrollSearch: filebeat_suricata-* result is: 2248
+2020-04-30 12:41:48,942: INFO:HidsRelateNids: the nhids num is: 51
+
+2020-04-30 12:44:45,630: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3507
+2020-04-30 12:44:45,843: INFO:ScrollSearch: filebeat_suricata-* result is: 2473
+2020-04-30 12:44:53,056: INFO:HidsRelateNids: the nhids num is: 57
+
+2020-04-30 14:18:20,459: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3863
+2020-04-30 14:18:20,660: INFO:ScrollSearch: filebeat_suricata-* result is: 2287
+2020-04-30 14:18:27,648: INFO:HidsRelateNids: the nhids num is: 31
+
+2020-04-30 14:19:19,857: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3967
+2020-04-30 14:19:20,058: INFO:ScrollSearch: filebeat_suricata-* result is: 2312
+2020-04-30 14:19:27,709: INFO:HidsRelateNids: the nhids num is: 31
+
+2020-04-30 14:23:24,651: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3735
+2020-04-30 14:23:24,848: INFO:ScrollSearch: filebeat_suricata-* result is: 2329
+2020-04-30 14:23:31,383: INFO:HidsRelateNids: the nhids num is: 22
+
+2020-04-30 14:24:12,539: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3717
+2020-04-30 14:24:12,735: INFO:ScrollSearch: filebeat_suricata-* result is: 2308
+2020-04-30 14:24:19,410: INFO:HidsRelateNids: the nhids num is: 33
+
+2020-04-30 14:25:01,791: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3713
+2020-04-30 14:25:02,004: INFO:ScrollSearch: filebeat_suricata-* result is: 2320
+2020-04-30 14:25:09,040: INFO:HidsRelateNids: the nhids num is: 33
+
+2020-04-30 14:26:20,990: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3660
+2020-04-30 14:26:21,203: INFO:ScrollSearch: filebeat_suricata-* result is: 2309
+2020-04-30 14:26:28,258: INFO:HidsRelateNids: the nhids num is: 34
+
+2020-04-30 14:26:28,284: INFO:WriteInputElastic: sucess write input elastic: 34
+2020-04-30 14:29:24,403: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3671
+2020-04-30 14:29:24,617: INFO:ScrollSearch: filebeat_suricata-* result is: 2355
+2020-04-30 14:29:31,949: INFO:HidsRelateNids: the nhids num is: 25
+2020-04-30 14:29:31,969: INFO:WriteInputElastic: sucess write input elastic: 25
+
+2020-04-30 14:41:56,042: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3699
+2020-04-30 14:41:56,223: INFO:ScrollSearch: filebeat_suricata-* result is: 2162
+2020-04-30 14:42:03,045: INFO:HidsRelateNids: the nhids num is: 51
+2020-04-30 14:42:03,251: INFO:WriteInputElastic: sucess write input elastic: 51
+
+2020-04-30 14:54:51,909: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3895
+2020-04-30 14:54:52,147: INFO:ScrollSearch: filebeat_suricata-* result is: 2151
+2020-04-30 14:54:59,327: INFO:HidsRelateNids: the nhids num is: 20
+2020-04-30 14:54:59,518: INFO:WriteInputElastic: sucess write input elastic: 20
+
+2020-04-30 15:16:23,114: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 5422
+2020-04-30 15:16:23,288: INFO:ScrollSearch: filebeat_suricata-* result is: 2097
+2020-04-30 15:16:32,470: INFO:HidsRelateNids: the nhids num is: 22
+2020-04-30 15:16:32,502: INFO:WriteInputElastic: sucess write input elastic: 22
+
+2020-04-30 16:04:41,496: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3776
+2020-04-30 16:04:41,696: INFO:ScrollSearch: filebeat_suricata-* result is: 2243
+2020-04-30 16:04:48,724: INFO:HidsRelateNids: the nhids num is: 20
+2020-04-30 16:04:48,766: INFO:WriteInputElastic: sucess write input elastic: 20
+
+2020-04-30 16:07:44,508: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3754
+2020-04-30 16:07:44,699: INFO:ScrollSearch: filebeat_suricata-* result is: 2206
+2020-04-30 16:07:51,626: INFO:HidsRelateNids: the nhids num is: 8
+2020-04-30 16:07:51,818: INFO:WriteInputElastic: sucess write input elastic: 8
+
+2020-04-30 16:10:46,883: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3668
+2020-04-30 16:10:47,123: INFO:ScrollSearch: filebeat_suricata-* result is: 2219
+2020-04-30 16:10:53,536: INFO:HidsRelateNids: the nhids num is: 16
+2020-04-30 16:10:53,561: INFO:WriteInputElastic: sucess write input elastic: 16
+
+2020-04-30 16:14:16,732: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3714
+2020-04-30 16:14:16,923: INFO:ScrollSearch: filebeat_suricata-* result is: 2150
+2020-04-30 16:14:23,726: INFO:HidsRelateNids: the nhids num is: 10
+2020-04-30 16:14:23,923: INFO:WriteInputElastic: sucess write input elastic: 10
+
+2020-04-30 16:16:13,921: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3748
+2020-04-30 16:16:14,111: INFO:ScrollSearch: filebeat_suricata-* result is: 2135
+2020-04-30 16:16:20,933: INFO:HidsRelateNids: the nhids num is: 20
+2020-04-30 16:16:20,965: INFO:WriteInputElastic: sucess write input elastic: 20
+
+2020-04-30 16:23:32,967: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 130
+2020-04-30 16:23:33,014: INFO:ScrollSearch: filebeat_suricata-* result is: 220
+2020-04-30 16:23:34,059: INFO:HidsRelateNids: the nhids num is: 4
+2020-04-30 16:23:34,248: INFO:WriteInputElastic: sucess write input elastic: 4
+
+2020-04-30 16:25:32,973: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 227
+2020-04-30 16:25:33,011: INFO:ScrollSearch: filebeat_suricata-* result is: 217
+2020-04-30 16:25:34,089: INFO:HidsRelateNids: the nhids num is: 0
+2020-04-30 16:25:34,092: INFO:WriteInputElastic: sucess write input elastic: 0
+
+2020-04-30 16:27:32,976: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 126
+2020-04-30 16:27:33,012: INFO:ScrollSearch: filebeat_suricata-* result is: 263
+2020-04-30 16:27:34,125: INFO:HidsRelateNids: the nhids num is: 2
+2020-04-30 16:27:34,153: INFO:WriteInputElastic: sucess write input elastic: 2
+
+2020-04-30 17:00:01,541: INFO:ScrollSearch: wazuh-alerts-3.x-* result is: 3663
+2020-04-30 17:00:01,740: INFO:ScrollSearch: filebeat_suricata-* result is: 2325
+2020-04-30 17:00:08,859: INFO:HidsRelateNids: the nhids num is: 16
+2020-04-30 17:00:09,130: INFO:WriteInputElastic: sucess write input elastic: 16
 

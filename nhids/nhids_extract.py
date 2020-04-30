@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import json
+from conf import setting
 
 def _hids_extract(hids):
     ##############################################################################
@@ -45,21 +45,12 @@ def _hids_extract(hids):
     else:
         hids_timestamp = "null"
     ##############################################################################
-    '''
-    print("hids_agent_ip: %s"%hids_agent_ip)
-    print("hids_srcip: %s"%hids_srcip)
-    print("hids_srcport: %s"%hids_srcport)
-    print("hids_node； %s"%hids_node)
-    print("hids_rule_description: %s"%hids_rule_description)
-    print("hids_rule_level: %s"%hids_rule_level)
-    print("hids_full_log: %s"%hids_full_log)
-    print("hids_timestamp: %s"%hids_timestamp)
-    print("##########################################################")
-    '''
-    return [("hids_agent_ip",hids_agent_ip),("hids_srcip",hids_srcip),\
-            ("hids_srcport",hids_srcport),("hids_node",hids_node),\
-            ("hids_rule_description",hids_rule_description),("hids_rule_level",hids_rule_level),\
-            ("hids_full_log",hids_full_log),("hids_timestamp",hids_timestamp)]
+
+    return [("timestamp",hids_timestamp),("node",hids_node),\
+            ("rule_level",hids_rule_level),("agent_ip",hids_agent_ip),\
+            ("srcip",hids_srcip),("srcport",hids_srcport),\
+            ("rule_description",hids_rule_description),\
+            ("full_log",hids_full_log)]
 
 def _nids_extract(nids):
     #######################################################################
@@ -158,44 +149,47 @@ def _nids_extract(nids):
         nids_timestamp = nids["@timestamp"]
     else:
         nids_timestamp = "null"
-    '''
-    print(nids_action)
-    print(nids_category)
-    print(nids_signature)
-    print(nids_dest_host)
-    print(nids_dest_ip)
-    print(nids_dest_port)
-    print(nids_dest_project)
-    print(nids_dest_service)
-    print(nids_dest_user)
-    print(nids_src_host)
-    print(nids_src_ip)
-    print(nids_src_port)
-    print(nids_src_project)
-    print(nids_src_service)
-    print(nids_src_user)
-    print(nids_payload)
-    print(nids_payload_printable)
-    print(nids_log_file_path)
-    print(nids_timestamp)
-    '''
-    return [("nids_action",nids_action),("nids_category",nids_category),\
-           ("nids_signature",nids_signature),("nids_dest_host",nids_dest_host),\
-           ("nids_dest_ip",nids_dest_ip),("nids_dest_port",nids_dest_port),\
-           ("nids_dest_project",nids_dest_project),("nids_dest_service",nids_dest_service),\
-           ("nids_dest_user",nids_dest_user),("nids_src_host",nids_src_host),\
-           ("nids_src_ip",nids_src_ip),("nids_src_port",nids_src_port),\
-           ("nids_src_project",nids_src_project),("nids_src_service",nids_src_service),\
-           ("nids_src_user",nids_src_user),("nids_payload",nids_payload),\
-           ("nids_payload_printable",nids_payload_printable),("nids_log_file_path",nids_log_file_path),\
-           ("nids_timestamp",nids_timestamp)]
+
+    return [("timestamp",nids_timestamp),("action",nids_action),\
+            ("category",nids_category),("signature",nids_signature),\
+            ("src_host",nids_src_host),("src_ip",nids_src_ip),\
+            ("src_port",nids_src_port),("src_project",nids_src_project),\
+            ("src_service",nids_src_service),("src_user",nids_src_user),\
+            ("dest_host",nids_dest_host),("dest_ip",nids_dest_ip),\
+            ("dest_port",nids_dest_port),("dest_project",nids_dest_project),\
+            ("dest_service",nids_dest_service),("dest_user",nids_dest_user),\
+            ("payload",nids_payload),("payload_printable",nids_payload_printable),\
+            ("log_file_path",nids_log_file_path)]
+
+def add_alert_level(each):
+    if each["hids"]["srcip"] == each["nids"]["src_ip"]:
+        if each["hids"]["agent_ip"] == each["nids"]["dest_ip"]:
+            each["告警级别"] = "高"
+            each["聚合说明"] = "hids.srcip与nids.src_ip相同,且hids.agent.ip与nids_dest.ip相同此agent在hids和nids都触发了告警,且源ip相同"
+            return each
+
+        each["告警级别"] = "低"
+        each["聚合说明"] = "hids.srcip与nids.src_ip相同,此ip触发了agent告警,也触发了nids其他ip告警"
+        return each
+
+    if each["hids"]["agent_ip"] == each["nids"]["src_ip"]:
+        each["告警级别"] = "中"
+        each["聚合说明"] = "hids.agent_ip与nids.src_ip相同,此agent触发了hids告警,也作为源ip触发了nids告警"
+        return each
+
+    if each["hids"]["agent_ip"] == each["nids"]["dest_ip"]:
+        each["告警级别"] = "低"
+        each["聚合说明"] = "hids.agent_ip与nids.dest_ip相同,此agent在hids和nids里都触发了告警,当告警源ip不同"
+        return each
+    return each
 
 def extract(nhids_result):
     final_events = []
     for each_tuple in nhids_result:
+        each_result = {}
         hids = each_tuple[0]
         nids = each_tuple[1]
-        each_result = dict(_hids_extract(hids) + _nids_extract(nids))
-        #print(each_result,type(each_result))
-        final_events.append(json.dumps(each_result))
+        each_result["hids"] = dict(_hids_extract(hids))
+        each_result["nids"] = dict(_nids_extract(nids))
+        final_events.append(add_alert_level(each_result))
     return final_events
