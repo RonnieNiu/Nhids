@@ -165,7 +165,7 @@ def add_alert_level(each):
     if each["hids"]["srcip"] == each["nids"]["src_ip"]:
         if each["hids"]["agent_ip"] == each["nids"]["dest_ip"]:
             each["告警级别"] = "高"
-            each["聚合说明"] = "hids.srcip与nids.src_ip相同,且hids.agent.ip与nids_dest.ip相同此agent在hids和nids都触发了告警,且源ip相同"
+            each["聚合说明"] = "hids.srcip与nids.src_ip相同,且hids.agent.ip与nids_dest.ip相同,此agent在hids和nids都触发了告警,且源ip相同"
             return each
 
         each["告警级别"] = "低"
@@ -179,7 +179,7 @@ def add_alert_level(each):
 
     if each["hids"]["agent_ip"] == each["nids"]["dest_ip"]:
         each["告警级别"] = "低"
-        each["聚合说明"] = "hids.agent_ip与nids.dest_ip相同,此agent在hids和nids里都触发了告警,当告警源ip不同"
+        each["聚合说明"] = "hids.agent_ip与nids.dest_ip相同,此agent在hids和nids里都触发了告警,但告警源ip不同"
         return each
     return each
 

@@ -33,7 +33,7 @@ def process():
     WriteInputElastic(final_events)
 
 if __name__ == "__main__":
-    BlockingScheduler
+    #BlockingScheduler
     sched = BlockingScheduler()
     sched.add_job(process, 'interval', minutes=int(setting.INTERVAL))  # 每隔15分钟秒执行一次
     sched.start()
