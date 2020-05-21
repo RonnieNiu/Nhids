@@ -5,11 +5,11 @@ INTERVAL = "15"
 LOGPATH = "/opt/Nhids/log/"
 
 #set es host and auth password
-ES_HOST = ["http://10.212.18.29:9200","http://10.212.21.60:9200"]
-ES_AUTH = ("elastic","abc123!@#")
+ES_HOST = ["http://","http://"]
+ES_AUTH = ("","")
 
 #set redis host and auth password
-REDIS_HOST = "10.212.18.29"
+REDIS_HOST = ""
 REDIS_PORT = 6390
-REDIS_AUTH = "abc123!@#"
+REDIS_AUTH = ""
 REDIS_DB = 0
